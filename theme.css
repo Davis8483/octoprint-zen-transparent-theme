@@ -1,0 +1,32 @@
+.navbar-inner .container {
+   background-color: rgb(0, 0, 0, 0.2);
+   border-radius: 200px;
+   padding-left: 20px;
+   padding-right: 20px;
+   backdrop-filter: blur(2px);
+}
+
+.modal, .dropdown-menu, #sidebar, #terminal-output {
+   background-color: rgb(0, 0, 0, 0.6);
+   border-radius: 10px;
+   backdrop-filter: blur(2px);
+}
+
+.dropdown-menu, .navbar-inner .container, .block, #terminal-output, textarea {
+   border-style: solid;
+   border-width: 1px;
+   border-color: rgb(100, 100, 100);
+}
+
+.navbar-inner, .navbar, .modal-header, .modal-footer, .block, .dropdown, .dropdown-toggle, textarea, [data-toggle="tab"] {
+   background-color: transparent !important;
+}
+
+.active[role="tab"] {
+   background-color: rgb(0, 0, 0, 0.4);
+   border-radius: 200px;
+}
+.dropdown-toggle:hover:not(.active), [role="tab"]:hover:not(.active) {
+   background-color: rgb(255, 255, 255, 0.2) !important;
+   border-radius: 200px;
+}
